@@ -14,11 +14,6 @@ const parseHost = (host) => {
     return host;
 };
 
-/////
-
-
-
-///////
 class Client {
     constructor(req, res) {
         this.req = req;

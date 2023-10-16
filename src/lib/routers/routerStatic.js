@@ -1,5 +1,3 @@
-
-
 const {prepareFile, MIME_TYPES} = require("../static-modules/static-functions");
 const routerStatic = async (client) => {
     const { req, res } = client;
